@@ -1,9 +1,9 @@
-name: Daily Docker Cycle (09:30 PM IST)
+name: Daily Docker Cycle (04:40 AM IST)
 
 on:
   schedule:
-    # 16:00 UTC = 21:30 IST
-    - cron: "0 16 * * *"
+    # 23:10 UTC = 04:40 IST
+    - cron: "10 23 * * *"
   workflow_dispatch:
 
 jobs:
